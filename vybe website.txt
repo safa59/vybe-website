@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vybe – Streetwear Style</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fff;
+      color: #111;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 1em 2em;
+      text-align: center;
+      font-size: 1.5em;
+      letter-spacing: 2px;
+    }
+    .hero {
+      height: 80vh;
+      background: url('banner.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+    .categories {
+      display: flex;
+      gap: 1em;
+      padding: 2em;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .category {
+      width: 300px;
+      height: 400px;
+      background-color: #eee;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      padding: 1em;
+      font-weight: bold;
+      color: #fff;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .category:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      background-color: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 2em 1em;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    VYBE
+  </header>
+
+  <section class="hero">
+    <div>Neue Streetwear, frischer Style</div>
+  </section>
+
+  <section class="categories">
+    <div class="category" style="background-image: url('men.jpg');">
+      Herren
+    </div>
+    <div class="category" style="background-image: url('women.jpg');">
+      Damen
+    </div>
+    <div class="category" style="background-image: url('accessories.jpg');">
+      Accessoires
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Vybe Streetwear. All rights reserved.
+  </footer>
+</body>
+</html>
